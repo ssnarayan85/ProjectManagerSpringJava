@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.angular.spring.controller.TaskManagerMvcControllerTest
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.515 s - in com.angular.spring.controller.TaskManagerMvcControllerTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.345 s - in com.angular.spring.controller.TaskManagerMvcControllerTest
