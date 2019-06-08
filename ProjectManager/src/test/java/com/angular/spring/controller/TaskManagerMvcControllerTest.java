@@ -32,10 +32,10 @@ import com.angular.spring.entity.TaskManager;
 import com.angular.spring.entity.User;
 import com.angular.spring.service.TaskManagerService;
 
-
-class TaskManagerController1{
-	
-}
+//
+//class TaskManagerController1{
+//	
+//}
 
 //@Configuration
 //@ComponentScan(basePackages = {"com.angular.spring"})
@@ -61,13 +61,13 @@ public class TaskManagerMvcControllerTest {
 	public void testListSize() {
 		List<TaskManager> list=taskManagerServiceTest.list();
 		System.out.println("list size =" + list.size());
-		assertEquals(74, list.size());
+		assertEquals(569, list.size());
 	}
 	
 	@Test
 	public void testData() {
-		TaskManager tb =  taskManagerServiceTest.get(1);
-		assertEquals("Task1", tb.getTask());
+		TaskManager tb =  taskManagerServiceTest.get(2);
+		assertEquals("Task2", tb.getTask());
 	}
 	
 	@Test
@@ -82,7 +82,7 @@ public class TaskManagerMvcControllerTest {
 		TaskManager tb =  taskManagerServiceTest.get(1);
 		
 		System.out.println("getParentId =" + tb.getParentId() + "tb=" + tb);
-		assertEquals("ParTask1", tb.getParentId());
+		assertEquals("ParTask2", tb.getParentId());
 		System.out.println("getParentId =" + tb.getParentId());
 	}
 	
